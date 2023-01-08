@@ -144,6 +144,7 @@
   }
   .formacao .subtitulo {
     color: #ffffff;
+    margin-top: initial;
   }
   .formacao-texto {
     font-size: 1.25rem;

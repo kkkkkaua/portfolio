@@ -4,3 +4,14 @@
 @import './experiencia.css';
 @import './formacao.css';
 @import './footer.css';
+
+[data-section] {
+  opacity: 0;
+  transform: translate3d(-30px, 0, 0);
+  transition: 0.3s;
+}
+
+[data-section].ativo {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
