@@ -64,12 +64,12 @@
 
 .empresa-titulo a {
   color: black;
-  text-decoration: none;
   transition: 0.3s;
 }
 
 .empresa-titulo a:hover {
   color: #808080;
+  text-decoration: none;
 }
 
 .empresa-texto {
